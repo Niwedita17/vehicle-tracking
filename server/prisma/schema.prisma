@@ -1,0 +1,45 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Vehicle {
+  plate       String   @id
+  name        String
+  year        String
+  status      String
+  odometer    String
+  driver      String
+  lastService String
+}
+
+model Driver {
+  id           String   @id
+  name         String
+  license      String
+  contact      String
+  status       String
+  dlExpiry     String
+  hazmatValid  String
+  eyeTestDate  String
+}
+
+model Schedule {
+  id      String @id
+  vehicle String
+  task    String
+  date    String
+  status  String
+}
+
+model Compliance {
+  id          String @id
+  vehicle     String
+  type        String
+  status      String
+  renewalDate String
+}

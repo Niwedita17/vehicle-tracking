@@ -26,6 +26,23 @@ A professional, data-driven compliance and maintenance platform for fleet manage
    ```
    The app will be available at `http://localhost:5173`.
 
+## Database Setup (PostgreSQL & Prisma)
+
+If you are running this on a machine that supports Prisma engines (some environments may block the binary):
+
+1. Navigate to the server directory:
+   ```bash
+   cd server
+   ```
+2. Create a `.env` file in the `server` directory and add your PostgreSQL connection string:
+   ```env
+   DATABASE_URL="postgresql://username:password@localhost:5432/fleetops?schema=public"
+   ```
+3. Run the Prisma migration to set up the database schema:
+   ```bash
+   npx prisma migrate dev --name init
+   ```
+
 ## Vahan Data Extraction (Scraper)
 
 We have implemented a prototype hybrid scraper to fetch vehicle details from the Parivahan website.
