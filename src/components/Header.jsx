@@ -1,7 +1,7 @@
 import React from 'react';
-import { Bell, User } from 'lucide-react';
+import { Bell, User, LogOut } from 'lucide-react';
 
-const Header = () => {
+const Header = ({ onLogout }) => {
   return (
     <header className="header">
       <div></div> {/* Empty div to maintain flex space-between layout if needed */}
@@ -19,6 +19,9 @@ const Header = () => {
             <span className="user-role">Fleet Manager</span>
           </div>
         </div>
+        <button className="action-btn" onClick={onLogout} title="Logout" style={{ marginLeft: '12px', color: 'var(--status-danger)' }}>
+          <LogOut size={20} />
+        </button>
       </div>
     </header>
   );

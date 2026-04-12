@@ -1,16 +1,51 @@
-# React + Vite
+# FleetOps Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional, data-driven compliance and maintenance platform for fleet managers.
 
-Currently, two official plugins are available:
+## Project Setup
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Prerequisites
+- Node.js (v14+ recommended)
+- npm
 
-## React Compiler
+### Running the Application
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Backend Server**:
+   ```bash
+   cd server
+   npm install
+   npm start
+   ```
+   The server will run on `http://localhost:5000`.
 
-## Expanding the ESLint configuration
+2. **Frontend (React)**:
+   ```bash
+   # In the root directory
+   npm install
+   npm run dev
+   ```
+   The app will be available at `http://localhost:5173`.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Vahan Data Extraction (Scraper)
+
+We have implemented a prototype hybrid scraper to fetch vehicle details from the Parivahan website.
+
+### How to Test the Scraper
+Due to Captcha protections on the official site, this is a **hybrid scraper** that requires manual intervention for login.
+
+1. Open a terminal and navigate to the server directory:
+   ```bash
+   cd server
+   ```
+2. Install Puppeteer (if not already installed):
+   ```bash
+   npm install puppeteer
+   ```
+3. Run the scraper script:
+   ```bash
+   node scraper.js
+   ```
+4. A Chromium browser window will open. **You must manually solve the Captcha and log in with your mobile number.**
+5. Once logged in, the script can be extended to read the data (currently it just waits for 1 minute to demonstrate the window stays open).
+
+*Note: If you encounter "Failed to launch the browser process" errors on some machines, ensure all Chromium dependencies are installed for Puppeteer.*
