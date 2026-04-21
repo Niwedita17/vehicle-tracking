@@ -167,39 +167,82 @@ const DriversView = ({ drivers = [], setDrivers }) => {
 
       {/* Driver Vault Modal */}
       {activeVaultDriver && (
-        <div className="modal-overlay" onClick={() => setActiveVaultDriver(null)}>
-          <div className="modal-content" onClick={e => e.stopPropagation()} style={{ maxWidth: '400px', textAlign: 'center' }}>
-            <div className="modal-header flex justify-between items-center mb-4">
-              <h3 className="card-title m-0">Driver Vault</h3>
-              <button onClick={() => setActiveVaultDriver(null)}><X size={20} /></button>
+        <div className="modal-overlay" onClick={() => setActiveVaultDriver(null)} style={{ background: 'rgba(0,0,0,0.7)', backdropFilter: 'blur(5px)' }}>
+          <div className="modal-content" onClick={e => e.stopPropagation()} style={{ 
+            maxWidth: '450px', 
+            textAlign: 'center',
+            background: '#0f172a',
+            border: '1px solid rgba(255,255,255,0.05)',
+            borderRadius: '24px',
+            padding: '2rem',
+            boxShadow: '0 25px 50px -12px rgba(0, 0, 0, 0.5)'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1.5rem' }}>
+              <h3 style={{ color: '#fff', fontSize: '1.3rem', fontWeight: '700', margin: 0 }}>Driver Vault</h3>
+              <button onClick={() => setActiveVaultDriver(null)} style={{ background: 'transparent', border: 'none', color: '#6b7280', cursor: 'pointer' }}><X size={24} /></button>
             </div>
-            <div className="vault-body p-6 flex flex-col items-center">
-              <h2 className="text-lg font-bold mb-2">{activeVaultDriver.name}</h2>
-              <p className="text-sm text-muted mb-4">Scan QR to view live documents</p>
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <h2 style={{ color: '#fff', fontSize: '1.5rem', fontWeight: '700', marginBottom: '0.25rem' }}>{activeVaultDriver.name}</h2>
+              <p style={{ color: '#6b7280', fontSize: '0.9rem', marginBottom: '2rem' }}>Digital Identity & Documents</p>
               
-              {/* Mock QR Code */}
-              <div className="qr-code-box border-2 border-dashed border-gray-300 p-6 mb-4 bg-white rounded-lg" style={{ width: '200px', height: '200px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                <div style={{ fontSize: '100px', color: 'var(--accent-primary)' }}>🏁</div>
+              {/* Mock QR Code / Digital ID Card */}
+              <div style={{ 
+                width: '220px', 
+                height: '220px', 
+                background: 'linear-gradient(135deg, rgba(56, 189, 248, 0.05) 0%, rgba(59, 130, 246, 0.05) 100%)',
+                border: '2px dashed rgba(56, 189, 248, 0.3)',
+                borderRadius: '16px',
+                padding: '1rem',
+                marginBottom: '2rem',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative'
+              }}>
+                <div style={{ fontSize: '80px', filter: 'drop-shadow(0 0 15px rgba(56, 189, 248, 0.3))' }}>🆔</div>
+                <span style={{ color: '#38bdf8', fontSize: '0.85rem', fontWeight: '600', marginTop: '10px', textTransform: 'uppercase' }}>Secure Scan</span>
               </div>
               
-              <div className="vault-docs w-full text-left bg-tertiary p-4 rounded-lg text-sm">
-                <div className="flex justify-between mb-1">
-                  <span>DL:</span>
-                  <span className="font-mono">{activeVaultDriver.license}</span>
+              <div style={{ 
+                width: '100%', 
+                textAlign: 'left', 
+                background: 'rgba(255, 255, 255, 0.02)', 
+                border: '1px solid rgba(255, 255, 255, 0.05)',
+                padding: '1.25rem', 
+                borderRadius: '12px', 
+                fontSize: '0.9rem' 
+              }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(255,255,255,0.05)', marginBottom: '0.75rem' }}>
+                  <span style={{ color: '#6b7280' }}>Driving License:</span>
+                  <span style={{ color: '#fff', fontWeight: '600', fontFamily: 'monospace' }}>{activeVaultDriver.license}</span>
                 </div>
-                <div className="flex justify-between mb-1">
-                  <span>Hazmat:</span>
-                  <span>{activeVaultDriver.hazmatValid}</span>
+                <div style={{ display: 'flex', justifyContent: 'space-between', paddingBottom: '0.75rem', borderBottom: '1px solid rgba(255,255,255,0.05)', marginBottom: '0.75rem' }}>
+                  <span style={{ color: '#6b7280' }}>Hazmat Cert:</span>
+                  <span style={{ 
+                    color: activeVaultDriver.hazmatValid === 'Expired' ? '#ef4444' : '#10b981',
+                    fontWeight: '600'
+                  }}>{activeVaultDriver.hazmatValid}</span>
                 </div>
-                <div className="flex justify-between">
-                  <span>Eye Test:</span>
-                  <span>{activeVaultDriver.eyeTestDate}</span>
+                <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+                  <span style={{ color: '#6b7280' }}>Medical Eye Test:</span>
+                  <span style={{ color: '#fff', fontWeight: '600' }}>{activeVaultDriver.eyeTestDate}</span>
                 </div>
               </div>
               
-              <button className="btn-primary btn-icon w-full mt-4">
-                <ExternalLink size={16} />
-                <span>Generate Public Link</span>
+              <button className="btn-primary" style={{ 
+                width: '100%', 
+                marginTop: '1.5rem',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '8px',
+                padding: '12px',
+                borderRadius: '12px',
+                fontWeight: '600'
+              }}>
+                <ExternalLink size={18} />
+                <span>Generate Public Access Link</span>
               </button>
             </div>
           </div>

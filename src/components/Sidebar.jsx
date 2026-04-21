@@ -1,5 +1,5 @@
 import React from 'react';
-import { LayoutDashboard, Truck, ClipboardList, Calendar, Users, ShieldCheck } from 'lucide-react';
+import { LayoutDashboard, Truck, ClipboardList, Calendar, Users, ShieldCheck, Phone } from 'lucide-react';
 
 const Sidebar = ({ activeView, setActiveView }) => {
   const menuItems = [
@@ -9,6 +9,7 @@ const Sidebar = ({ activeView, setActiveView }) => {
     { id: 'schedule', name: 'Schedule', icon: <Calendar size={20} /> },
     { id: 'drivers', name: 'Drivers', icon: <Users size={20} /> },
     { id: 'compliance', name: 'Compliance', icon: <ShieldCheck size={20} /> },
+    { id: 'contacts', name: 'Contacts', icon: <Phone size={20} /> },
   ];
 
   return (

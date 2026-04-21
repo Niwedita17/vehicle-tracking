@@ -10,6 +10,7 @@ import ComplianceView from './views/ComplianceView'
 import AuthView from './views/AuthView'
 import AdminView from './views/AdminView'
 import NotificationsView from './views/NotificationsView'
+import ContactsView from './views/ContactsView'
 import Footer from './components/Footer'
 import './index.css'
 
@@ -180,6 +181,8 @@ function App() {
         return <ComplianceView compliance={compliance} setCompliance={handleComplianceChange} globalSearch={globalSearch} />;
       case 'notifications':
         return <NotificationsView />;
+      case 'contacts':
+        return <ContactsView />;
       default:
         return <div className="view-placeholder">Select a view</div>;
     }
@@ -204,7 +207,7 @@ function App() {
         <div className="content-area">
           {renderView()}
         </div>
-        <Footer />
+        <Footer setActiveView={setActiveView} />
       </div>
     </div>
   )
