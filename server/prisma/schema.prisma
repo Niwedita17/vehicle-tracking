@@ -15,6 +15,7 @@ model Vehicle {
   odometer    String
   driver      String
   lastService String
+  company     String
 }
 
 model Driver {
@@ -26,6 +27,7 @@ model Driver {
   dlExpiry     String
   hazmatValid  String
   eyeTestDate  String
+  company      String
 }
 
 model Schedule {
@@ -34,6 +36,7 @@ model Schedule {
   task    String
   date    String
   status  String
+  company String
 }
 
 model Compliance {
@@ -42,6 +45,7 @@ model Compliance {
   type        String
   status      String
   renewalDate String
+  company     String
 }
 
 model User {

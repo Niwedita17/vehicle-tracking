@@ -75,8 +75,10 @@ function App() {
   const [compliance, setCompliance] = useState(initialCompliance);
 
   useEffect(() => {
+    if (!currentUser) return;
+
     const fetchEntity = (endpoint, setter, localKey) => {
-      fetch(`http://localhost:5000/api/${endpoint}`)
+      fetch(`http://localhost:5000/api/${endpoint}?company=${currentUser.company}`)
         .then(res => res.json())
         .then(data => {
           if (data && data.length > 0) setter(data);
@@ -92,7 +94,7 @@ function App() {
     fetchEntity('drivers', setDrivers, 'drivers_v2');
     fetchEntity('schedule', setSchedule, 'schedule');
     fetchEntity('compliance', setCompliance, 'compliance_v3');
-  }, []);
+  }, [currentUser]);
 
   // Persistence
   useEffect(() => { localStorage.setItem('vehicles', JSON.stringify(vehicles)); }, [vehicles]);
@@ -108,7 +110,7 @@ function App() {
       fetch('http://localhost:5000/api/compliance', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newDoc)
+        body: JSON.stringify({ ...newDoc, company: currentUser.company })
       }).catch(err => console.log('Failed to save compliance to server'));
     }
   };
@@ -119,7 +121,7 @@ function App() {
       fetch('http://localhost:5000/api/vehicles', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newVehicles[newVehicles.length - 1])
+        body: JSON.stringify({ ...newVehicles[newVehicles.length - 1], company: currentUser.company })
       }).catch(err => console.log('Failed to save vehicle to server'));
     }
   };
@@ -130,7 +132,7 @@ function App() {
       fetch('http://localhost:5000/api/drivers', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newDrivers[newDrivers.length - 1])
+        body: JSON.stringify({ ...newDrivers[newDrivers.length - 1], company: currentUser.company })
       }).catch(err => console.log('Failed to save driver to server'));
     }
   };
@@ -141,7 +143,7 @@ function App() {
       fetch('http://localhost:5000/api/schedule', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(newSchedule[newSchedule.length - 1])
+        body: JSON.stringify({ ...newSchedule[newSchedule.length - 1], company: currentUser.company })
       }).catch(err => console.log('Failed to save schedule to server'));
     }
   };

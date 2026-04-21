@@ -41,8 +41,10 @@ app.post('/api/login', async (req, res) => {
 
 // Routes
 app.get('/api/vehicles', async (req, res) => {
+  const { company } = req.query;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
-    const vehicles = await prisma.vehicle.findMany();
+    const vehicles = await prisma.vehicle.findMany({ where: { company } });
     res.json(vehicles);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch vehicles' });
@@ -50,6 +52,8 @@ app.get('/api/vehicles', async (req, res) => {
 });
 
 app.post('/api/vehicles', async (req, res) => {
+  const { company } = req.body;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
     await prisma.vehicle.create({ data: req.body });
     res.json({ success: true });
@@ -59,8 +63,10 @@ app.post('/api/vehicles', async (req, res) => {
 });
 
 app.get('/api/drivers', async (req, res) => {
+  const { company } = req.query;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
-    const drivers = await prisma.driver.findMany();
+    const drivers = await prisma.driver.findMany({ where: { company } });
     res.json(drivers);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch drivers' });
@@ -68,6 +74,8 @@ app.get('/api/drivers', async (req, res) => {
 });
 
 app.post('/api/drivers', async (req, res) => {
+  const { company } = req.body;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
     await prisma.driver.create({ data: req.body });
     res.json({ success: true });
@@ -77,8 +85,10 @@ app.post('/api/drivers', async (req, res) => {
 });
 
 app.get('/api/schedule', async (req, res) => {
+  const { company } = req.query;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
-    const schedule = await prisma.schedule.findMany();
+    const schedule = await prisma.schedule.findMany({ where: { company } });
     res.json(schedule);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch schedule' });
@@ -86,6 +96,8 @@ app.get('/api/schedule', async (req, res) => {
 });
 
 app.post('/api/schedule', async (req, res) => {
+  const { company } = req.body;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
     await prisma.schedule.create({ data: req.body });
     res.json({ success: true });
@@ -95,8 +107,10 @@ app.post('/api/schedule', async (req, res) => {
 });
 
 app.get('/api/compliance', async (req, res) => {
+  const { company } = req.query;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
-    const compliance = await prisma.compliance.findMany();
+    const compliance = await prisma.compliance.findMany({ where: { company } });
     res.json(compliance);
   } catch (error) {
     res.status(500).json({ error: 'Failed to fetch compliance' });
@@ -104,6 +118,8 @@ app.get('/api/compliance', async (req, res) => {
 });
 
 app.post('/api/compliance', async (req, res) => {
+  const { company } = req.body;
+  if (!company) return res.status(400).json({ error: 'Company required' });
   try {
     await prisma.compliance.create({ data: req.body });
     res.json({ success: true });
