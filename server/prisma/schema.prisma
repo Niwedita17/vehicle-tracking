@@ -43,3 +43,9 @@ model Compliance {
   status      String
   renewalDate String
 }
+
+model User {
+  phone   String @id
+  name    String
+  company String
+}
