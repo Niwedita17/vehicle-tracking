@@ -215,8 +215,9 @@ button {
 /* Header Styles */
 .header {
   height: 70px;
-  background-color: var(--bg-secondary);
-  border-bottom: 1px solid var(--border-color);
+  background: rgba(11, 15, 25, 0.9); /* Deep dark blue */
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   display: flex;
   align-items: center;
   justify-content: space-between;

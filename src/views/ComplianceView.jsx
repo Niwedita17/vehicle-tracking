@@ -200,9 +200,17 @@ const ComplianceView = ({ compliance = [], setCompliance }) => {
                         </span>
                         {type === 'Insurance' && status !== 'Valid' && status !== 'Missing' && (
                           <button 
-                            className="btn-secondary btn-xs"
                             onClick={() => setActiveRenewalDoc({ vehicle, type, status })}
-                            style={{ padding: '2px 6px', fontSize: '11px' }}
+                            style={{ 
+                              padding: '2px 6px', 
+                              fontSize: '12px', 
+                              color: '#38bdf8', 
+                              background: 'transparent', 
+                              border: 'none', 
+                              textDecoration: 'underline', 
+                              cursor: 'pointer',
+                              fontWeight: '600'
+                            }}
                           >
                             Renew
                           </button>

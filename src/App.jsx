@@ -59,8 +59,13 @@ const initialCompliance = [
 
 function App() {
   const [activeView, setActiveView] = useState('dashboard')
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const [currentUser, setCurrentUser] = useState(null);
+  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+    return localStorage.getItem('isAuthenticated') === 'true';
+  });
+  const [currentUser, setCurrentUser] = useState(() => {
+    const saved = localStorage.getItem('currentUser');
+    return saved ? JSON.parse(saved) : null;
+  });
   
   // State
   const [globalSearch, setGlobalSearch] = useState('');
@@ -71,6 +76,14 @@ function App() {
     const saved = JSON.parse(localStorage.getItem('logs_v2'));
     return saved && saved.length > 0 ? saved : initialLogs;
   });
+
+  useEffect(() => {
+    localStorage.setItem('isAuthenticated', isAuthenticated);
+  }, [isAuthenticated]);
+
+  useEffect(() => {
+    localStorage.setItem('currentUser', JSON.stringify(currentUser));
+  }, [currentUser]);
   const [schedule, setSchedule] = useState(initialSchedule);
   const [drivers, setDrivers] = useState(initialDrivers);
   const [compliance, setCompliance] = useState(initialCompliance);
@@ -183,7 +196,7 @@ function App() {
     <div className="app-container">
       <Sidebar activeView={activeView} setActiveView={setActiveView} />
       <div className="main-content">
-        <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => setIsAuthenticated(false)} user={currentUser} />
+        <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => { setIsAuthenticated(false); setCurrentUser(null); }} user={currentUser} />
         <div className="content-area">
           {renderView()}
         </div>
