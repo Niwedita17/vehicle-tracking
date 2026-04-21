@@ -156,6 +156,24 @@ app.get('/api/admin/users', async (req, res) => {
   }
 });
 
+app.get('/api/admin/schedule', async (req, res) => {
+  try {
+    const schedule = await prisma.schedule.findMany();
+    res.json(schedule);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch all schedule' });
+  }
+});
+
+app.get('/api/admin/compliance', async (req, res) => {
+  try {
+    const compliance = await prisma.compliance.findMany();
+    res.json(compliance);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch all compliance' });
+  }
+});
+
 // Approach A: Vahan API Adapter (Mocked)
 app.post('/api/vahan/fetch', (req, res) => {
   const { vehicleNumber } = req.body;
