@@ -19,52 +19,25 @@ const NotificationsView = () => {
   };
 
   return (
-    <div style={{ 
-      padding: '2rem', 
-      background: 'linear-gradient(135deg, #0b0f19 0%, #111827 100%)', 
-      minHeight: '100vh', 
-      color: '#f3f4f6',
-      fontFamily: "'Inter', system-ui, sans-serif"
-    }}>
+    <div className="view-container" style={{ padding: '2rem' }}>
       {/* Header Section */}
-      <div style={{ 
-        display: 'flex', 
-        justifyContent: 'space-between', 
-        alignItems: 'center', 
-        marginBottom: '3rem',
-        borderBottom: '1px solid rgba(255,255,255,0.05)',
-        paddingBottom: '1.5rem'
-      }}>
+      <div className="view-header" style={{ marginBottom: '2rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1.5rem' }}>
         <div>
           <a href="/" style={{ 
             display: 'flex', 
             alignItems: 'center', 
             gap: '8px', 
-            color: '#6b7280', 
+            color: 'var(--text-muted)', 
             textDecoration: 'none',
             fontSize: '0.9rem',
-            marginBottom: '0.5rem',
-            transition: 'color 0.2s'
-          }}
-          onMouseOver={(e) => e.target.style.color = '#3b82f6'}
-          onMouseOut={(e) => e.target.style.color = '#6b7280'}
-          >
+            marginBottom: '0.5rem'
+          }}>
             <ArrowLeft size={16} /> Back to Dashboard
           </a>
-          <h1 style={{ 
-            fontSize: '2.8rem', 
-            fontWeight: '800', 
-            display: 'flex', 
-            alignItems: 'center', 
-            gap: '12px',
-            margin: 0,
-            background: 'linear-gradient(to right, #fff, #9ca3af)',
-            WebkitBackgroundClip: 'text',
-            WebkitTextFillColor: 'transparent'
-          }}>
-            <Bell size={36} color="#38bdf8" /> Notifications
+          <h1 className="view-title" style={{ fontSize: '2.5rem', fontWeight: '800', display: 'flex', alignItems: 'center', gap: '12px', margin: 0 }}>
+            <Bell size={32} color="#38bdf8" /> Notifications
           </h1>
-          <p style={{ color: '#6b7280', marginTop: '0.5rem', fontSize: '1.1rem' }}>Stay updated with your fleet activity</p>
+          <p className="view-subtitle" style={{ color: 'var(--text-muted)', marginTop: '0.5rem' }}>Stay updated with your fleet activity</p>
         </div>
       </div>
 
@@ -73,27 +46,13 @@ const NotificationsView = () => {
         {notifications.map(notif => {
           const theme = getTheme(notif.type);
           return (
-            <div key={notif.id} style={{ 
-              background: 'rgba(255, 255, 255, 0.02)', 
-              border: '1px solid rgba(255, 255, 255, 0.05)',
-              borderRadius: '16px',
-              padding: '1.5rem',
+            <div key={notif.id} className="card" style={{ 
               display: 'flex',
               alignItems: 'flex-start',
               gap: '20px',
-              backdropFilter: 'blur(20px)',
-              transition: 'transform 0.2s, background 0.2s',
-              cursor: 'pointer'
-            }}
-            onMouseOver={(e) => {
-              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.04)';
-              e.currentTarget.style.transform = 'translateY(-2px)';
-            }}
-            onMouseOut={(e) => {
-              e.currentTarget.style.background = 'rgba(255, 255, 255, 0.02)';
-              e.currentTarget.style.transform = 'translateY(0)';
-            }}
-            >
+              cursor: 'pointer',
+              backgroundColor: '#ffffff' // Enforce white background
+            }}>
               <div style={{ 
                 width: '44px', 
                 height: '44px', 
@@ -109,10 +68,10 @@ const NotificationsView = () => {
               </div>
               <div style={{ flex: 1 }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.25rem' }}>
-                  <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: '600', color: '#fff' }}>{notif.title}</h3>
-                  <span style={{ color: '#6b7280', fontSize: '0.85rem', fontWeight: '500' }}>{notif.time}</span>
+                  <h3 style={{ margin: 0, fontSize: '1.15rem', fontWeight: '600', color: 'var(--text-primary)' }}>{notif.title}</h3>
+                  <span style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>{notif.time}</span>
                 </div>
-                <p style={{ margin: 0, color: '#9ca3af', fontSize: '0.95rem', lineHeight: '1.6' }}>{notif.message}</p>
+                <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem', lineHeight: '1.6' }}>{notif.message}</p>
                 
                 <div style={{ display: 'flex', gap: '10px', marginTop: '1rem' }}>
                   <span style={{ 
@@ -126,9 +85,7 @@ const NotificationsView = () => {
                   }}>
                     {notif.type}
                   </span>
-                  <span style={{ fontSize: '0.75rem', color: '#4b5563', cursor: 'pointer' }}
-                        onMouseOver={(e) => e.target.style.color = '#6b7280'}
-                        onMouseOut={(e) => e.target.style.color = '#4b5563'}>Mark as read</span>
+                  <span style={{ fontSize: '0.75rem', color: 'var(--text-muted)', cursor: 'pointer' }}>Mark as read</span>
                 </div>
               </div>
             </div>
