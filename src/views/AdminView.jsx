@@ -117,7 +117,7 @@ const AdminView = () => {
           overflow: 'hidden'
         }}>
           <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyCenter: 'center', justifyContent: 'center' }}>
+            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Users size={20} color="#38bdf8" />
             </div>
             <div>
@@ -160,7 +160,7 @@ const AdminView = () => {
           overflow: 'hidden'
         }}>
           <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyCenter: 'center', justifyContent: 'center' }}>
+            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Truck size={20} color="#38bdf8" />
             </div>
             <div>
@@ -174,6 +174,10 @@ const AdminView = () => {
                 <tr style={{ background: 'rgba(255,255,255,0.01)' }}>
                   <th style={tableHeaderStyle}>PLATE</th>
                   <th style={tableHeaderStyle}>MODEL</th>
+                  <th style={tableHeaderStyle}>YEAR</th>
+                  <th style={tableHeaderStyle}>ODOMETER</th>
+                  <th style={tableHeaderStyle}>DRIVER</th>
+                  <th style={tableHeaderStyle}>LAST SERVICE</th>
                   <th style={tableHeaderStyle}>COMPANY</th>
                   <th style={tableHeaderStyle}>STATUS</th>
                 </tr>
@@ -185,6 +189,10 @@ const AdminView = () => {
                       onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}>
                     <td style={tableCellStyle} className="font-mono">{v.plate}</td>
                     <td style={{ ...tableCellStyle, fontWeight: '500' }}>{v.name}</td>
+                    <td style={tableCellStyle}>{v.year}</td>
+                    <td style={tableCellStyle}>{v.odometer}</td>
+                    <td style={tableCellStyle}>{v.driver}</td>
+                    <td style={tableCellStyle}>{v.lastService}</td>
                     <td style={tableCellStyle}>
                       <span style={pillStyle('#38bdf8')}>{v.company}</span>
                     </td>
@@ -209,7 +217,7 @@ const AdminView = () => {
           overflow: 'hidden'
         }}>
           <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyCenter: 'center', justifyContent: 'center' }}>
+            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Landmark size={20} color="#38bdf8" />
             </div>
             <div>
@@ -223,8 +231,12 @@ const AdminView = () => {
                 <tr style={{ background: 'rgba(255,255,255,0.01)' }}>
                   <th style={tableHeaderStyle}>ID</th>
                   <th style={tableHeaderStyle}>NAME</th>
-                  <th style={tableHeaderStyle}>COMPANY</th>
+                  <th style={tableHeaderStyle}>CONTACT</th>
                   <th style={tableHeaderStyle}>LICENSE</th>
+                  <th style={tableHeaderStyle}>DL EXPIRY</th>
+                  <th style={tableHeaderStyle}>HAZMAT</th>
+                  <th style={tableHeaderStyle}>EYE TEST</th>
+                  <th style={tableHeaderStyle}>COMPANY</th>
                 </tr>
               </thead>
               <tbody>
@@ -234,10 +246,18 @@ const AdminView = () => {
                       onMouseOut={(e) => e.currentTarget.style.background = 'transparent'}>
                     <td style={tableCellStyle} className="font-mono">{d.id}</td>
                     <td style={{ ...tableCellStyle, fontWeight: '500' }}>{d.name}</td>
+                    <td style={tableCellStyle}>{d.contact}</td>
+                    <td style={tableCellStyle}>{d.license}</td>
+                    <td style={tableCellStyle}>{d.dlExpiry}</td>
+                    <td style={tableCellStyle}>
+                      <span style={pillStyle(d.hazmatValid === 'Expired' ? '#ef4444' : '#10b981')}>
+                        {d.hazmatValid}
+                      </span>
+                    </td>
+                    <td style={tableCellStyle}>{d.eyeTestDate}</td>
                     <td style={tableCellStyle}>
                       <span style={pillStyle('#38bdf8')}>{d.company}</span>
                     </td>
-                    <td style={tableCellStyle}>{d.license}</td>
                   </tr>
                 ))}
               </tbody>
@@ -254,7 +274,7 @@ const AdminView = () => {
           overflow: 'hidden'
         }}>
           <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyCenter: 'center', justifyContent: 'center' }}>
+            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <Calendar size={20} color="#38bdf8" />
             </div>
             <div>
@@ -269,6 +289,7 @@ const AdminView = () => {
                   <th style={tableHeaderStyle}>ID</th>
                   <th style={tableHeaderStyle}>VEHICLE</th>
                   <th style={tableHeaderStyle}>TASK</th>
+                  <th style={tableHeaderStyle}>DATE</th>
                   <th style={tableHeaderStyle}>COMPANY</th>
                   <th style={tableHeaderStyle}>STATUS</th>
                 </tr>
@@ -281,6 +302,7 @@ const AdminView = () => {
                     <td style={tableCellStyle} className="font-mono">{s.id}</td>
                     <td>{s.vehicle}</td>
                     <td>{s.task}</td>
+                    <td>{s.date}</td>
                     <td style={tableCellStyle}>
                       <span style={pillStyle('#38bdf8')}>{s.company}</span>
                     </td>
@@ -305,7 +327,7 @@ const AdminView = () => {
           overflow: 'hidden'
         }}>
           <div style={{ padding: '1.5rem', borderBottom: '1px solid rgba(255,255,255,0.05)', display: 'flex', alignItems: 'center', gap: '12px' }}>
-            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyCenter: 'center', justifyContent: 'center' }}>
+            <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: 'rgba(56, 189, 248, 0.1)', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
               <FileText size={20} color="#38bdf8" />
             </div>
             <div>
@@ -320,6 +342,7 @@ const AdminView = () => {
                   <th style={tableHeaderStyle}>ID</th>
                   <th style={tableHeaderStyle}>VEHICLE</th>
                   <th style={tableHeaderStyle}>TYPE</th>
+                  <th style={tableHeaderStyle}>RENEWAL DATE</th>
                   <th style={tableHeaderStyle}>COMPANY</th>
                   <th style={tableHeaderStyle}>STATUS</th>
                 </tr>
@@ -332,6 +355,7 @@ const AdminView = () => {
                     <td style={tableCellStyle} className="font-mono">{c.id}</td>
                     <td>{c.vehicle}</td>
                     <td>{c.type}</td>
+                    <td>{c.renewalDate}</td>
                     <td style={tableCellStyle}>
                       <span style={pillStyle('#38bdf8')}>{c.company}</span>
                     </td>
