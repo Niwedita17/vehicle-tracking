@@ -128,6 +128,34 @@ app.post('/api/compliance', async (req, res) => {
   }
 });
 
+// Admin Routes (No company filtering)
+app.get('/api/admin/vehicles', async (req, res) => {
+  try {
+    const vehicles = await prisma.vehicle.findMany();
+    res.json(vehicles);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch all vehicles' });
+  }
+});
+
+app.get('/api/admin/drivers', async (req, res) => {
+  try {
+    const drivers = await prisma.driver.findMany();
+    res.json(drivers);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch all drivers' });
+  }
+});
+
+app.get('/api/admin/users', async (req, res) => {
+  try {
+    const users = await prisma.user.findMany();
+    res.json(users);
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to fetch all users' });
+  }
+});
+
 // Approach A: Vahan API Adapter (Mocked)
 app.post('/api/vahan/fetch', (req, res) => {
   const { vehicleNumber } = req.body;

@@ -8,6 +8,7 @@ import ScheduleView from './views/ScheduleView'
 import DriversView from './views/DriversView'
 import ComplianceView from './views/ComplianceView'
 import AuthView from './views/AuthView'
+import AdminView from './views/AdminView'
 import './index.css'
 
 // Initial Data
@@ -81,7 +82,7 @@ function App() {
       fetch(`http://localhost:5000/api/${endpoint}?company=${currentUser.company}`)
         .then(res => res.json())
         .then(data => {
-          if (data && data.length > 0) setter(data);
+          setter(data);
         })
         .catch(err => {
           console.log(`Failed to fetch ${endpoint}, using local storage fallback`);
@@ -165,6 +166,10 @@ function App() {
       default:
         return <div className="view-placeholder">Select a view</div>;
     }
+  }
+
+  if (window.location.pathname === '/admin') {
+    return <AdminView />;
   }
 
   if (!isAuthenticated) {
