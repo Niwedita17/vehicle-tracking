@@ -1,12 +1,12 @@
 import React from 'react';
 import { Bell, User, LogOut } from 'lucide-react';
 
-const Header = ({ onLogout, user }) => {
+const Header = ({ onLogout, user, setActiveView }) => {
   return (
     <header className="header">
       <div></div> {/* Empty div to maintain flex space-between layout if needed */}
       <div className="header-actions" style={{ display: 'flex', alignItems: 'center' }}>
-        <button className="action-btn" onClick={() => alert('You have 3 new alerts:\n- Insurance expiring soon\n- Engine check overdue\n- PUC expiring soon')} style={{ color: '#ffffff', background: 'rgba(255,255,255,0.05)', border: 'none', borderRadius: '8px', padding: '8px', display: 'flex', alignItems: 'center', position: 'relative', cursor: 'pointer' }}>
+        <button className="action-btn" onClick={() => setActiveView('notifications')} style={{ color: '#ffffff', background: 'rgba(255,255,255,0.05)', border: 'none', borderRadius: '8px', padding: '8px', display: 'flex', alignItems: 'center', position: 'relative', cursor: 'pointer' }}>
           <Bell size={20} />
           <span className="badge" style={{ position: 'absolute', top: '-5px', right: '-5px', background: '#ef4444', color: '#fff', borderRadius: '50%', width: '18px', height: '18px', fontSize: '11px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>3</span>
         </button>

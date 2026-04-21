@@ -9,6 +9,8 @@ import DriversView from './views/DriversView'
 import ComplianceView from './views/ComplianceView'
 import AuthView from './views/AuthView'
 import AdminView from './views/AdminView'
+import NotificationsView from './views/NotificationsView'
+import Footer from './components/Footer'
 import './index.css'
 
 // Initial Data
@@ -176,6 +178,8 @@ function App() {
         return <DriversView drivers={drivers} setDrivers={handleDriversChange} globalSearch={globalSearch} />;
       case 'compliance':
         return <ComplianceView compliance={compliance} setCompliance={handleComplianceChange} globalSearch={globalSearch} />;
+      case 'notifications':
+        return <NotificationsView />;
       default:
         return <div className="view-placeholder">Select a view</div>;
     }
@@ -196,10 +200,11 @@ function App() {
     <div className="app-container">
       <Sidebar activeView={activeView} setActiveView={setActiveView} />
       <div className="main-content">
-        <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => { setIsAuthenticated(false); setCurrentUser(null); }} user={currentUser} />
+        <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => { setIsAuthenticated(false); setCurrentUser(null); }} user={currentUser} setActiveView={setActiveView} />
         <div className="content-area">
           {renderView()}
         </div>
+        <Footer />
       </div>
     </div>
   )
