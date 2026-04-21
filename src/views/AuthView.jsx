@@ -41,15 +41,37 @@ const AuthView = ({ onLoginSuccess }) => {
     // Mock verification
     if (enteredOtp === '123456') {
       if (isLogin) {
-        onLoginSuccess({
-          name: 'Fleet Manager',
-          company: 'Logistics Corp',
-          phone: phone
-        });
+        fetch('http://localhost:5000/api/login', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ phone })
+        })
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            onLoginSuccess(data.user);
+          } else {
+            alert(data.error || 'Login failed');
+          }
+        })
+        .catch(err => alert('Failed to connect to server'));
       } else {
-        alert('You are registered successfully! Please login to continue.');
-        setIsLogin(true);
-        resetFlow();
+        fetch('http://localhost:5000/api/register', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ phone, name, company })
+        })
+        .then(res => res.json())
+        .then(data => {
+          if (data.success) {
+            alert('You are registered successfully! Please login to continue.');
+            setIsLogin(true);
+            resetFlow();
+          } else {
+            alert(data.error || 'Registration failed');
+          }
+        })
+        .catch(err => alert('Failed to connect to server'));
       }
     } else {
       alert('Invalid OTP. Try 123456');

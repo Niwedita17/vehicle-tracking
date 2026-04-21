@@ -10,6 +10,35 @@ app.use(express.json());
 const { PrismaClient } = require('@prisma/client');
 const prisma = new PrismaClient();
 
+// Auth Routes
+app.post('/api/register', async (req, res) => {
+  const { phone, name, company } = req.body;
+  try {
+    const user = await prisma.user.create({
+      data: { phone, name, company }
+    });
+    res.json({ success: true, user });
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to register user' });
+  }
+});
+
+app.post('/api/login', async (req, res) => {
+  const { phone } = req.body;
+  try {
+    const user = await prisma.user.findUnique({
+      where: { phone }
+    });
+    if (user) {
+      res.json({ success: true, user });
+    } else {
+      res.status(404).json({ error: 'User not found' });
+    }
+  } catch (error) {
+    res.status(500).json({ error: 'Failed to login' });
+  }
+});
+
 // Routes
 app.get('/api/vehicles', async (req, res) => {
   try {

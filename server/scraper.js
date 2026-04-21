@@ -1,42 +1,43 @@
-const puppeteer = require('puppeteer');
+// Razorpay Vahan API Integration Example
+// This script demonstrates how to call the Razorpay Identity API for vehicle verification.
+// To use this, you will need a Razorpay account and your API Key ID and Secret.
 
-async function runScraper() {
-  console.log('Starting Vahan Scraper...');
-  
-  // Launch non-headless browser so user can interact with Captcha/Login
-  const browser = await puppeteer.launch({
-    headless: false,
-    defaultViewport: null,
-    args: ['--start-maximized']
-  });
+const RAZORPAY_KEY_ID = 'YOUR_KEY_ID';
+const RAZORPAY_KEY_SECRET = 'YOUR_KEY_SECRET';
+const VEHICLE_NUMBER = 'HR26AR7790'; // Example
 
-  const page = await browser.newPage();
+async function fetchVahanData() {
+  console.log(`Calling Razorpay API for vehicle: ${VEHICLE_NUMBER}...`);
   
   try {
-    console.log('Navigating to Parivahan login page...');
-    await page.goto('https://vahan.parivahan.gov.in/vahan/vahan/ui/login/login.xhtml', {
-      waitUntil: 'networkidle2'
+    // Razorpay uses Basic Auth (Key ID : Key Secret)
+    const authHeader = 'Basic ' + Buffer.from(RAZORPAY_KEY_ID + ':' + RAZORPAY_KEY_SECRET).toString('base64');
+    
+    // Note: The endpoint URL below is an example based on typical Razorpay identity API structures.
+    // You should check the Razorpay documentation for the exact Vahan verification endpoint.
+    const response = await fetch('https://api.razorpay.com/v1/identities/vahan', {
+      method: 'POST',
+      headers: {
+        'Authorization': authHeader,
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({
+        vehicle_number: VEHICLE_NUMBER
+      })
     });
 
-    console.log('==================================================');
-    console.log('PLEASE LOG IN MANUALLY IN THE BROWSER WINDOW.');
-    console.log('Solve the Captcha and complete the mobile OTP login.');
-    console.log('==================================================');
-
-    // Wait for the user to successfully log in and land on the dashboard or search page
-    // We detect this by checking if the URL changes or a specific element appears
-    // For now, we just wait for a long time or until the user closes the browser
+    const data = await response.json();
     
-    await new Promise(resolve => setTimeout(resolve, 60000)); // Wait 1 minute for demo
-    
-    console.log('Time up or manual intervention completed.');
+    if (response.ok) {
+      console.log('Success! Data received:');
+      console.log(data);
+    } else {
+      console.error('API Error:', data.error || response.statusText);
+    }
     
   } catch (error) {
-    console.error('Error during scraping:', error);
-  } finally {
-    console.log('Closing browser...');
-    await browser.close();
+    console.error('Failed to connect to Razorpay API:', error);
   }
 }
 
-runScraper();
+fetchVahanData();

@@ -176,7 +176,7 @@ function App() {
     <div className="app-container">
       <Sidebar activeView={activeView} setActiveView={setActiveView} />
       <div className="main-content">
-        <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => setIsAuthenticated(false)} />
+        <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => setIsAuthenticated(false)} user={currentUser} />
         <div className="content-area">
           {renderView()}
         </div>
