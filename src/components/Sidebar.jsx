@@ -1,7 +1,7 @@
 import React from 'react';
-import { LayoutDashboard, Truck, ClipboardList, Calendar, Users, ShieldCheck, Phone } from 'lucide-react';
+import { LayoutDashboard, Truck, ClipboardList, Calendar, Users, ShieldCheck, Phone, LogOut } from 'lucide-react';
 
-const Sidebar = ({ activeView, setActiveView }) => {
+const Sidebar = ({ activeView, setActiveView, onLogout }) => {
   const menuItems = [
     { id: 'dashboard', name: 'Dashboard', icon: <LayoutDashboard size={20} /> },
     { id: 'vehicles', name: 'Vehicles', icon: <Truck size={20} /> },
@@ -29,6 +29,16 @@ const Sidebar = ({ activeView, setActiveView }) => {
           </button>
         ))}
       </nav>
+      <div style={{ marginTop: 'auto', padding: '10px 20px' }}>
+        <button
+          className="nav-item"
+          onClick={onLogout}
+          style={{ width: '100%', justifyContent: 'flex-start', color: '#ef4444', background: 'rgba(239, 68, 68, 0.05)', border: 'none', cursor: 'pointer' }}
+        >
+          <span className="nav-icon"><LogOut size={20} /></span>
+          <span className="nav-text">Logout</span>
+        </button>
+      </div>
     </div>
   );
 };

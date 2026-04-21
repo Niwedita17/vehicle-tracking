@@ -6,17 +6,6 @@ const ContactsView = () => {
     <div className="view-container" style={{ padding: '2rem' }}>
       <div className="view-header" style={{ marginBottom: '3rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1.5rem' }}>
         <div>
-          <a href="/" style={{ 
-            display: 'flex', 
-            alignItems: 'center', 
-            gap: '8px', 
-            color: 'var(--text-muted)', 
-            textDecoration: 'none',
-            fontSize: '0.9rem',
-            marginBottom: '0.5rem'
-          }}>
-            <ArrowLeft size={16} /> Back to Dashboard
-          </a>
           <h1 className="view-title" style={{ fontSize: '2.8rem', fontWeight: '800', margin: 0 }}>
             Contact Us & About
           </h1>

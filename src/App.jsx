@@ -201,7 +201,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <Sidebar activeView={activeView} setActiveView={setActiveView} />
+      <Sidebar activeView={activeView} setActiveView={setActiveView} onLogout={() => { setIsAuthenticated(false); setCurrentUser(null); }} />
       <div className="main-content">
         <Header globalSearch={globalSearch} setGlobalSearch={setGlobalSearch} showSearch={activeView !== 'dashboard'} onLogout={() => { setIsAuthenticated(false); setCurrentUser(null); }} user={currentUser} setActiveView={setActiveView} />
         <div className="content-area">

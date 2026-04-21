@@ -19,9 +19,6 @@ const Header = ({ onLogout, user, setActiveView }) => {
             <span className="user-role" style={{ color: '#9ca3af', fontSize: '12px' }}>{user ? user.company : 'Fleet Manager'}</span>
           </div>
         </div>
-        <button className="action-btn" onClick={onLogout} title="Logout" style={{ marginLeft: '15px', color: '#ef4444', background: 'rgba(255,255,255,0.05)', border: 'none', borderRadius: '8px', padding: '8px', display: 'flex', alignItems: 'center', cursor: 'pointer' }}>
-          <LogOut size={20} />
-        </button>
       </div>
     </header>
   );

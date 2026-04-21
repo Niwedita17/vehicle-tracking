@@ -23,17 +23,6 @@ const NotificationsView = () => {
       {/* Header Section */}
       <div className="view-header" style={{ marginBottom: '2rem', borderBottom: '1px solid var(--border-color)', paddingBottom: '1.5rem' }}>
         <div>
-          <a href="/" style={{ 
-            display: 'flex', 
-            alignItems: 'center', 
-            gap: '8px', 
-            color: 'var(--text-muted)', 
-            textDecoration: 'none',
-            fontSize: '0.9rem',
-            marginBottom: '0.5rem'
-          }}>
-            <ArrowLeft size={16} /> Back to Dashboard
-          </a>
           <h1 className="view-title" style={{ fontSize: '2.5rem', fontWeight: '800', display: 'flex', alignItems: 'center', gap: '12px', margin: 0 }}>
             <Bell size={32} color="#38bdf8" /> Notifications
           </h1>
