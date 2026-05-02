@@ -72,6 +72,20 @@ This microservice runs a daily cron job at 08:00 AM IST and triggers WhatsApp al
    uvicorn main:app --reload
    ```
 
+### Testing the Alerts
+
+1. **Seed Test Data**:
+   Update `alert_engine/seed.py` with your real WhatsApp number and run:
+   ```bash
+   python seed.py
+   ```
+
+2. **Manual Trigger**:
+   To test alerts immediately without waiting for 8:00 AM IST, trigger the manual webhook:
+   ```bash
+   curl -X POST http://localhost:8000/admin/trigger-alerts
+   ```
+
 ## Vahan Data Extraction (Scraper)
 
 We have implemented a prototype hybrid scraper to fetch vehicle details from the Parivahan website.
