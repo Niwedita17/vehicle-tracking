@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+apscheduler
+twilio
+sqlalchemy>=2.0.0
+asyncpg
+pytz

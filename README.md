@@ -43,6 +43,35 @@ If you are running this on a machine that supports Prisma engines (some environm
    npx prisma migrate dev --name init
    ```
 
+## WhatsApp Alert Engine (Python/FastAPI)
+
+This microservice runs a daily cron job at 08:00 AM IST and triggers WhatsApp alerts via Twilio to clients for documents expiring in 15, 7, or 1 days.
+
+### How to Run the Engine
+
+1. Navigate to the alert engine directory:
+   ```bash
+   cd alert_engine
+   ```
+2. Create a Python virtual environment and activate it:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Provide your environment variables and start the Uvicorn server:
+   ```bash
+   export DATABASE_URL="postgresql+asyncpg://postgres:postgres@localhost:5432/fleetguard"
+   export TWILIO_ACCOUNT_SID="your_sid"
+   export TWILIO_AUTH_TOKEN="your_token"
+   export TWILIO_WHATSAPP_NUMBER="whatsapp:+14155238886"
+   
+   uvicorn main:app --reload
+   ```
+
 ## Vahan Data Extraction (Scraper)
 
 We have implemented a prototype hybrid scraper to fetch vehicle details from the Parivahan website.
