@@ -11,7 +11,7 @@ This itinerary is structured for **exactly 19 days door-to-door**, starting in R
 ```mermaid
 graph TD
     BLR["✈️ Bangalore, India (BLR)"] -->|Outbound Flight| FCO["🇮🇹 Rome & Florence, Italy (Days 1–3)"]
-    FCO -->|Scenic Train| ZRH["🇨🇭 Zermatt, Interlaken, Lucerne & Zurich, Switzerland (Days 4–8)"]
+    FCO -->|Via Lake Como| ZRH["🇨🇭 Zermatt, Interlaken, Lucerne & Zurich, Switzerland (Days 4–8)"]
     ZRH -->|Mont Blanc Express Train| CHM["🇫🇷 Chamonix-Mont-Blanc, French Alps (Day 8)"]
     CHM -->|High-Speed Train| CDG["🇫🇷 Paris, France (Days 9–11)"]
     CDG -->|High-Speed TGV| LUX["🇱🇺 Luxembourg City, Luxembourg (Day 12)"]
@@ -38,7 +38,7 @@ graph TD
    ▼
 🇮🇹 Italy: Rome & Florence [Days 1–3]
    │ 
-   │ (Scenic Train via Milan / Brig)
+   │ (Early Train & Lake Como day-transit)
    ▼
 🇨🇭 Switzerland: Zermatt, Interlaken, Lucerne & Zurich [Days 4–8]
    │ 
@@ -76,7 +76,7 @@ graph TD
 | **Day 1** | Rome, Italy | Arrive in Rome (morning). Visit Colosseum, Roman Forum, Palatine Hill & Altar of the Fatherland. Evening walk to Trevi Fountain & Pantheon. | Flight: BLR → FCO (Lands by 09:00 AM) |
 | **Day 2** | Rome → Florence | Vatican Museums, Sistine Chapel, St. Peter's Basilica & Castel Sant'Angelo. Evening high-speed train to Florence. | Frecciarossa Train (1h 35m, departure ~18:30) |
 | **Day 3** | Florence, Italy | Morning Uffizi & Accademia (David). Afternoon visit to Duomo, Ponte Vecchio & Palazzo Vecchio. Sunset at Piazzale Michelangelo. | Walking |
-| **Day 4** | Florence → Zermatt | Morning visit to Basilica of Santa Croce & Boboli Gardens. Afternoon scenic train to Zermatt, Switzerland. | Train (approx. 5h 45m, departure ~12:30) |
+| **Day 4** | Florence → Lake Como → Zermatt | Early morning train to Milan/Varenna. Spend 4 hours at Lake Como (Bellagio/Varenna). Afternoon scenic train to Zermatt. | Train & Ferry (highly optimized single-day transit - see details at end) |
 | **Day 5** | Zermatt → Interlaken | Gornergrat Cogwheel Railway for Matterhorn views. Afternoon train to Interlaken; cruise on Lake Brienz. | Swiss Rail (2h 10m) |
 | **Day 6** | Interlaken & Alps | Day trip to Jungfraujoch (Top of Europe) and explore Lauterbrunnen waterfalls & Grindelwald First. | Mountain Cogwheel Trains |
 | **Day 7** | Interlaken → Lucerne | Luzern-Interlaken Express scenic train. Mt. Pilatus Golden Round Trip (cable car & boat). Chapel Bridge. | Scenic Train (2h) + Boat & Cable Car |
@@ -130,3 +130,27 @@ graph TD
 | **Activities & Tickets** (For 2) | $1,300 – $1,900 | $3,200 – $5,000 |
 | **Total Joint Trip Cost** | **$7,450 – $10,200** | **$16,500 – $23,600+** |
 | *Per Person Equivalent* | *$3,725 – $5,100* | *$8,250 – $11,800* |
+
+---
+
+### ⏱️ Day 4: Detailed Hour-by-Hour Transit (Florence ➔ Lake Como ➔ Zermatt)
+This highly optimized schedule allows you to experience the beauty of Lake Como (Varenna & Bellagio) on your way from Florence to Zermatt in a single day. 
+
+> [!IMPORTANT]
+> **Luggage Strategy**: Do not carry heavy luggage to the lake. Use the **KiPoint Luggage Deposit** at Milan Central Station (Platform 21 level) to store your bags during the day-trip.
+
+| Time | Activity | Logistics & Details |
+| :--- | :--- | :--- |
+| **06:00 AM – 07:45 AM** | **Florence to Milan** | High-speed Frecciarossa train from *Firenze SMN* to *Milano Centrale*. |
+| **07:45 AM – 08:10 AM** | **Luggage Drop-off** | Deposit heavy bags at **KiPoint** (near Platform 21) in Milan Central. Travel light with just daypacks. |
+| **08:20 AM – 09:23 AM** | **Milan to Lake Como** | Regional train to **Varenna-Esino** (sit on the left side for lake views). |
+| **09:30 AM – 09:50 AM** | **Ferry to Bellagio** | Walk 10 mins downhill to the Varenna dock, buy round-trip ferry tickets to **Bellagio**. |
+| **10:05 AM – 12:30 PM** | **Bellagio & Lunch** | Explore Bellagio's scenic alleys and enjoy an early lakeside lunch. |
+| **12:45 PM – 13:00 PM** | **Ferry to Varenna** | Take the ferry back to Varenna. |
+| **13:00 PM – 13:20 PM** | **Varenna Stroll** | Walk along Varenna's romantic lakeside path (*Passeggiata dell'Amore*). |
+| **13:20 PM – 13:35 PM** | **Return to Station** | Walk back up to Varenna-Esino station. |
+| **13:35 PM – 14:40 PM** | **Varenna to Milan** | Regional train back to *Milano Centrale*. |
+| **14:40 PM – 15:05 PM** | **Retrieve Luggage** | Collect your heavy bags from KiPoint and buy snacks/water for the Swiss train. |
+| **15:20 PM – 17:30 PM** | **Milan to Visp (Swiss)** | Eurocity (EC) train from Milan to **Visp** (Simplon route). *Book in advance!* |
+| **17:40 PM – 18:51 PM** | **Visp to Zermatt** | Transfer to the **Matterhorn Gotthard Bahn** cogwheel train to Zermatt (covered by Swiss Travel Pass). |
+| **19:00 PM** | **Arrive in Zermatt** | Check-in, enjoy the evening views of the Matterhorn, and have dinner. |

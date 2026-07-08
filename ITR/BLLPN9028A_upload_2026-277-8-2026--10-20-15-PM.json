@@ -1,0 +1,1895 @@
+{
+  "ITR": {
+    "ITR2": {
+      "CreationInfo": {
+        "SWVersionNo": "R1",
+        "SWCreatedBy": "SW10012627",
+        "JSONCreatedBy": "SW10012627",
+        "JSONCreationDate": "2026-07-08",
+        "IntermediaryCity": "Delhi",
+        "Digest": "FXQL6Y69iIgeMcDS4/V/fSiNokrSiD18VyZz+XNT5mE="
+      },
+      "PartA_GEN1": {
+        "PersonalInfo": {
+          "Status": "I",
+          "AadhaarCardNo": "331781085114",
+          "Address": {
+            "CityOrTownOrDistrict": "Bangalore Urban",
+            "MobileNo": 8970016495,
+            "StateCode": "15",
+            "CountryCode": "91",
+            "EmailAddress": "niwedita.dakshana2017@gmail.com",
+            "PinCode": 560037,
+            "RoadOrStreet": "Doddanekundi",
+            "CountryCodeMobile": 91,
+            "LocalityOrArea": "Marathahalli",
+            "ResidenceNo": "Floor 02, Door 22",
+            "ResidenceName": "Wassalayout"
+          },
+          "AssesseeName": {
+            "SurNameOrOrgName": "NIWEDITA"
+          },
+          "DOB": "2000-12-30",
+          "PAN": "BLLPN9028A",
+          "AlternateAddress": {
+            "PinCode": 803119,
+            "ResidenceNo": "Village- Madanpura",
+            "ResidenceName": "D/O Janardan Prasad",
+            "RoadOrStreet": "Rahui",
+            "LocalityOrArea": "Rahui",
+            "CityOrTownOrDistrict": "Bihar Sharif",
+            "StateCode": "05",
+            "CountryCode": "91"
+          },
+          "SecondaryAdd": "N"
+        },
+        "FilingStatus": {
+          "AsseseeRepFlg": "N",
+          "ReturnFileSec": 11,
+          "ItrFilingDueDate": "2026-07-31",
+          "OptOutNewTaxRegime": "Y",
+          "PortugeseCC5A": "N",
+          "SeventhProvisio139": "N",
+          "ResidentialStatus": "RES",
+          "ConditionsResStatus": "1",
+          "BenefitUs115HFlg": "N",
+          "FiiFpiFlag": "N",
+          "CompDirectorPrvYrFlg": "N",
+          "HeldUnlistedEqShrPrYrFlg": "N"
+        }
+      },
+      "ScheduleS": {
+        "ProfessionalTaxUs16iii": 0,
+        "Salaries": [
+          {
+            "Salarys": {
+              "NatureOfSalary": {
+                "OthersIncDtls": [
+                  {
+                    "NatureDesc": "1",
+                    "OthAmount": 1253007
+                  },
+                  {
+                    "NatureDesc": "4",
+                    "OthAmount": 232029
+                  }
+                ]
+              },
+              "IncomeNotified89A": 0,
+              "Salary": 1485036,
+              "ValueOfPerquisites": 0,
+              "ProfitsinLieuOfSalary": 0,
+              "GrossSalary": 1485036,
+              "IncomeNotifiedOther89A": 0,
+              "IncomeNotifiedPrYr89A": 0
+            },
+            "TANofEmployer": "DELA04792E",
+            "AddressDetail": {
+              "PinCode": 110017,
+              "StateCode": "09",
+              "AddrDetail": "MGF METROPOLITAN MALL SAKET DISTRICT CENTRE SAKET",
+              "CityOrTownOrDistrict": "NEW DELHI"
+            },
+            "NameOfEmployer": "AMERICAN EXPRESS (INDIA) PRIVATE LIMITED",
+            "NatureOfEmployment": "OTH"
+          },
+          {
+            "Salarys": {
+              "NatureOfPerquisites": {
+                "OthersIncDtls": [
+                  {
+                    "NatureDesc": "OTH",
+                    "OthAmount": 3358,
+                    "OthNatOfInc": "Non Cash corporate benefits"
+                  },
+                  {
+                    "NatureDesc": "17",
+                    "OthAmount": 1387622
+                  },
+                  {
+                    "NatureDesc": "8",
+                    "OthAmount": 34704
+                  }
+                ]
+              },
+              "NatureOfSalary": {
+                "OthersIncDtls": [
+                  {
+                    "NatureDesc": "1",
+                    "OthAmount": 1626122
+                  },
+                  {
+                    "NatureDesc": "4",
+                    "OthAmount": 282231
+                  }
+                ]
+              },
+              "IncomeNotified89A": 0,
+              "Salary": 1908353,
+              "ValueOfPerquisites": 1425684,
+              "ProfitsinLieuOfSalary": 0,
+              "GrossSalary": 3334037,
+              "IncomeNotifiedOther89A": 0,
+              "IncomeNotifiedPrYr89A": 0
+            },
+            "TANofEmployer": "BLRG25952D",
+            "AddressDetail": {
+              "PinCode": 560048,
+              "StateCode": "15",
+              "AddrDetail": "11TH-12TH FLOOR, CARINA-W EST TOWER, BAGMANE CONSTELLATION BUS INESS PARK,",
+              "CityOrTownOrDistrict": "BANGALORE, BANGALORE"
+            },
+            "NameOfEmployer": "GOOGLE IT SERVICES INDIA PRIVATE LIMITED",
+            "NatureOfEmployment": "OTH"
+          }
+        ],
+        "AllwncExemptUs10": {
+          "AllwncExemptUs10Dtls": [
+            {
+              "SalNatureDesc": "10(10AA)",
+              "SalOthAmount": 110656
+            },
+            {
+              "SalNatureDesc": "10(13A)",
+              "SalOthAmount": 514260
+            },
+            {
+              "SalNatureDesc": "10(5)",
+              "SalOthAmount": 200000
+            }
+          ]
+        },
+        "DeductionUnderSection16ia": 50000,
+        "EntertainmntalwncUs16ii": 0,
+        "TotalGrossSalary": 4819073,
+        "AllwncExtentExemptUs10": 824916,
+        "NetSalary": 3994157,
+        "DeductionUS16": 50000,
+        "TotIncUnderHeadSalaries": 3944157,
+        "Section10_13A": {
+          "ActlHRARecv": 514260,
+          "ActlRentPaid10Per": 514260,
+          "EligbleExmpAllwncUs13A": 514260,
+          "Placeofwork": "1",
+          "ActlRentPaid": 631224,
+          "DtlsSalUsSec171": 1169638,
+          "Sal40Or50Per": 584819
+        },
+        "Increliefus89A": 0
+      },
+      "Verification": {
+        "Capacity": "S",
+        "Declaration": {
+          "AssesseeVerName": "  NIWEDITA",
+          "AssesseeVerPAN": "BLLPN9028A",
+          "FatherName": "JANARDAN PRASAD"
+        },
+        "Date": "2026-07-08",
+        "Place": "Bangalore"
+      },
+      "ScheduleVIA": {
+        "UsrDeductUndChapVIA": {
+          "Section80CCDEmployer": 0,
+          "Section80GGA": 0,
+          "Section80D": 55000,
+          "Section80G": 0,
+          "TotalChapVIADeductions": 255598,
+          "Section80C": 192086,
+          "Section80TTA": 8512,
+          "Section80GGC": 0,
+          "Section80DD": 0,
+          "Section80EEA": 0,
+          "Section80EE": 0,
+          "Section80E": 0,
+          "Section80EEB": 0,
+          "Section80CCC": 0,
+          "Section80U": 0,
+          "Section80CCDEmployeeOrSE": 0,
+          "Section80CCD1B": 0,
+          "Section80DDB": 0,
+          "Section80GG": 0,
+          "Section80QQB": 0,
+          "Section80RRB": 0
+        },
+        "DeductUndChapVIA": {
+          "Section80GGA": 0,
+          "AnyOthSec80CCH": 0,
+          "Section80CCDEmployer": 0,
+          "Section80TTB": 0,
+          "Section80D": 55000,
+          "Section80G": 0,
+          "TotalChapVIADeductions": 213512,
+          "Section80E": 0,
+          "Section80EE": 0,
+          "Section80CCD1B": 0,
+          "Section80TTA": 8512,
+          "Section80DDB": 0,
+          "Section80C": 150000,
+          "Section80EEA": 0,
+          "Section80EEB": 0,
+          "Section80DD": 0,
+          "Section80CCC": 0,
+          "Section80GGC": 0,
+          "Section80CCDEmployeeOrSE": 0,
+          "Section80GG": 0,
+          "Section80RRB": 0,
+          "Section80QQB": 0,
+          "Section80U": 0
+        }
+      },
+      "ScheduleTDS1": {
+        "TDSonSalary": [
+          {
+            "EmployerOrDeductorOrCollectDetl": {
+              "EmployerOrDeductorOrCollecterName": "AMERICAN EXPRESS (INDIA) PRIVATE LIMITED",
+              "TAN": "DELA04792E"
+            },
+            "IncChrgSal": 1485036,
+            "TotalTDSSal": 114172
+          },
+          {
+            "EmployerOrDeductorOrCollectDetl": {
+              "EmployerOrDeductorOrCollecterName": "GOOGLE IT SERVICES INDIA PRIVATE LIMITED",
+              "TAN": "BLRG25952D"
+            },
+            "IncChrgSal": 3334037,
+            "TotalTDSSal": 580022
+          }
+        ],
+        "TotalTDSonSalaries": 694194
+      },
+      "PartB_TTI": {
+        "Refund": {
+          "BankAccountDtls": {
+            "AddtnlBankDetails": [
+              {
+                "IFSCCode": "SBIN0015605",
+                "BankName": "STATE BANK OF INDIA",
+                "BankAccountNo": "37048788480",
+                "UseForRefund": "true",
+                "AccountType": "SB"
+              }
+            ],
+            "BankDtlsFlag": "Y"
+          },
+          "RefundDue": 0
+        },
+        "ComputationOfTaxLiability": {
+          "GrossTaxPay": {
+            "TaxDeferredPayableCY": 0,
+            "TaxDeferred17": 0,
+            "TaxInc17": 967200
+          },
+          "IntrstPay": {
+            "FeeFurnish234I": 0,
+            "LateFilingFee234F": 0,
+            "IntrstPayUs234C": 13065,
+            "IntrstPayUs234B": 10656,
+            "IntrstPayUs234A": 0,
+            "TotalIntrstPay": 23721
+          },
+          "Surcharge25ofSI": 0,
+          "Surcharge25ofSIBeforeMarginal": 0,
+          "TaxPayableOnTI": {
+            "TaxAtSpecialRates": 0,
+            "RebateOnAgriInc": 0,
+            "TaxAtNormalRatesOnAggrInc": 930000,
+            "TaxPayableOnTotInc": 930000
+          },
+          "Rebate87A": 0,
+          "SurchargeOnAboveCroreBeforeMarginal": 0,
+          "TaxPayableOnRebate": 930000,
+          "SurchargeOnAboveCrore": 0,
+          "TotalSurcharge": 0,
+          "EducationCess": 37200,
+          "GrossTaxLiability": 967200,
+          "GrossTaxPayable": 967200,
+          "CreditUS115JD": 0,
+          "TaxPayAfterCreditUs115JD": 967200,
+          "NetTaxLiability": 966806,
+          "AggregateTaxInterestLiability": 990527,
+          "TaxRelief": {
+            "Section90": 394,
+            "Section91": 0,
+            "TotTaxRelief": 394,
+            "Section89": 0
+          }
+        },
+        "TaxPaid": {
+          "TaxesPaid": {
+            "AdvanceTax": 0,
+            "SelfAssessmentTax": 0,
+            "TCS": 0,
+            "TDS": 700389,
+            "TotalTaxesPaid": 700389
+          },
+          "BalTaxPayable": 290140
+        },
+        "AssetOutIndiaFlag": "NO",
+        "TaxPayDeemedTotIncUs115JC": 0,
+        "Surcharge": 0,
+        "HealthEduCess": 0,
+        "TotalTaxPayablDeemedTotInc": 0
+      },
+      "ScheduleOS": {
+        "IncOthThanOwnRaceHorse": {
+          "IntrstFrmTermDeposit": 45043,
+          "IntrstFrmOthers": 67493,
+          "IntrstFrmSavingBank": 8512,
+          "DividendOthThan22e": 7511,
+          "IntrstFrmIncmTaxRefund": 0,
+          "IncomeNotified89AOS": 0,
+          "TaxAccumulatedBalRecPF": {
+            "TotalIncomeBenefit": 0,
+            "TotalTaxBenefit": 0
+          },
+          "OthersGross": 0,
+          "PassThrIncOSChrgblSplRate": 0,
+          "DividendGross": 7511,
+          "InterestGross": 121048,
+          "Deductions": {
+            "Depreciation": 0,
+            "DeductionUs57iia": 0,
+            "TotDeductions": 0,
+            "IntExp57": 0,
+            "Expenses": 0,
+            "UsrIntExp57": 0
+          },
+          "Tot562x": 0,
+          "AnyOtherIncome": 0,
+          "IncChrgblUs115BBE": 0,
+          "GrossIncChrgblTaxAtAppRate": 128559,
+          "IncChargeableSpecialRates": 0,
+          "BalanceNoRaceHorse": 128559,
+          "NatofPassThrghIncome": 0,
+          "RentFromMachPlantBldgs": 0,
+          "Aggrtvaluewithoutcons562x": 0,
+          "Immovpropwithoutcons562x": 0,
+          "Immovpropinadeqcons562x": 0,
+          "Anyotherpropwithoutcons562x": 0,
+          "Anyotherpropinadeqcons562x": 0,
+          "FamilyPension": 0,
+          "LtryPzzlChrgblUs115BB": 0,
+          "IncChrgblUs115BBJ": 0,
+          "AmtNotDeductibleUs58": 0,
+          "ProfitChargTaxUs59": 0,
+          "Increliefus89AOS": 0,
+          "CashCreditsUs68": 0,
+          "UnExplndInvstmntsUs69": 0,
+          "UnExplndMoneyUs69A": 0,
+          "UnDsclsdInvstmntsUs69B": 0,
+          "UnExplndExpndtrUs69C": 0,
+          "AmtBrwdRepaidOnHundiUs69D": 0
+        },
+        "DividendDTAA": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "DividendIncUs115ACA": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "DividendIncUs115BBDA": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 7511,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "DividendIncUs115A1ai": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "DividendIncUs115AD1i": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "DividendIncUs115AC": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "IncFrmLottery": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "DividendIncUs115BBDAaiii": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "NOT89A": {
+          "DateRange": {
+            "Upto15Of6": 0,
+            "Upto15Of9": 0,
+            "Up16Of9To15Of12": 0,
+            "Up16Of12To15Of3": 0,
+            "Up16Of3To31Of3": 0
+          }
+        },
+        "TotOthSrcNoRaceHorse": 128559,
+        "IncChargeable": 128559
+      },
+      "ScheduleTDS2": {
+        "TDSOthThanSalaryDtls": [
+          {
+            "GrossAmount": 2900,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "94A",
+            "TANOfDeductor": "PNEA31538D",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 291,
+              "TaxClaimedOwnHands": 291,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          },
+          {
+            "GrossAmount": 2528,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "193",
+            "TANOfDeductor": "CHEV15012E",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 254,
+              "TaxClaimedOwnHands": 254,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          },
+          {
+            "GrossAmount": 8318,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "193",
+            "TANOfDeductor": "PTLA16190G",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 831,
+              "TaxClaimedOwnHands": 831,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          },
+          {
+            "GrossAmount": 3404,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "193",
+            "TANOfDeductor": "PNEA31538D",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 341,
+              "TaxClaimedOwnHands": 341,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          },
+          {
+            "GrossAmount": 15570,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "193",
+            "TANOfDeductor": "BLRK15643F",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 1557,
+              "TaxClaimedOwnHands": 1557,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          },
+          {
+            "GrossAmount": 17631,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "193",
+            "TANOfDeductor": "CHES63261C",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 1764,
+              "TaxClaimedOwnHands": 1764,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          },
+          {
+            "GrossAmount": 11548,
+            "HeadOfIncome": "OS",
+            "TDSCreditName": "S",
+            "TDSSection": "193",
+            "TANOfDeductor": "JLDM04797C",
+            "TaxDeductCreditDtls": {
+              "TaxDeductedOwnHands": 1157,
+              "TaxClaimedOwnHands": 1157,
+              "TaxDeductedTDS": 0,
+              "TaxDeductedIncome": 0,
+              "TaxClaimedIncome": 0,
+              "TaxClaimedTDS": 0
+            },
+            "AmtCarriedFwd": 0,
+            "BroughtFwdTDSAmt": 0
+          }
+        ],
+        "TotalTDSonOthThanSals": 6195
+      },
+      "ScheduleSI": {
+        "SplCodeRateTax": [
+          {
+            "SecCode": "1",
+            "SplRatePercent": 1,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "1A",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AD1biip",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "21",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "22",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "21ciii",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "2A",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1ai",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aA",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aii",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiia",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiiaa",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiiaaP",
+            "SplRatePercent": 4,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiiaa2P",
+            "SplRatePercent": 9,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiiab",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiiac",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1aiii",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5A1bA",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AC1ab",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AC1abD",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AC1c",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5ACA1a",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5ACA1b",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AD1i",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AD1iDiv",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5AD1iP",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5ADii",
+            "SplRatePercent": 30,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5ADiii",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5ADiiiP",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BB",
+            "SplRatePercent": 30,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BBJ",
+            "SplRatePercent": 30,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BBA",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BBE",
+            "SplRatePercent": 60,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BBF",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BBG",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5Ea",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5Eb",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "DTAASTCG",
+            "SplRatePercent": 1,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "DTAALTCG",
+            "SplRatePercent": 1,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "DTAAOS",
+            "SplRatePercent": 1,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_STCG20P",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_STCG30P",
+            "SplRatePercent": 30,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_LTCG12_5P112A",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_LTCG12_5P",
+            "SplRatePercent": 12.5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1ai",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aA",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aii",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiia",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiiaa",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiiaaP",
+            "SplRatePercent": 4,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiiaa2P",
+            "SplRatePercent": 9,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiiab",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiiac",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1aiii",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5A1bA",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5AC1ab",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5AC1abD",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5ACA1a",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5AD1i",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5AD1iDiv",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5AD1iP",
+            "SplRatePercent": 5,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5BBA",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5BBF",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5BBG",
+            "SplRatePercent": 10,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "PTI_5Ea",
+            "SplRatePercent": 20,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          },
+          {
+            "SecCode": "5BBH",
+            "SplRatePercent": 30,
+            "SplRateInc": 0,
+            "SplRateIncTax": 0
+          }
+        ],
+        "TotSplRateInc": 0,
+        "TotSplRateIncTax": 0
+      },
+      "ScheduleAMTC": {
+        "ScheduleAMTCDtls": [
+          {
+            "AssYr": "2013-14",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2014-15",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2015-16",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2016-17",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2017-18",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2018-19",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2019-20",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2020-21",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2021-22",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2022-23",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2023-24",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2024-25",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          },
+          {
+            "AssYr": "2025-26",
+            "Gross": 0,
+            "AmtCreditSetOfEy": 0,
+            "AmtCreditBalBroughtFwd": 0,
+            "AmtCreditUtilized": 0,
+            "BalAmtCreditCarryFwd": 0
+          }
+        ],
+        "CurrAssYr": "2026-27",
+        "TotSetOffEys": 0,
+        "TotBalBF": 0,
+        "TotAmtCreditUtilisedCY": 0,
+        "TaxSection115JD": 0,
+        "TaxSection115JC": 0,
+        "TaxOthProvisions": 967200,
+        "AmtTaxCreditAvailable": 967200,
+        "CurrYrAmtCreditFwd": 0,
+        "CurrYrCreditCarryFwd": 0,
+        "TotBalAMTCreditCF": 0,
+        "TotAMTGross": 0,
+        "AmtLiabilityAvailable": 0
+      },
+      "ScheduleTDS3": {
+        "TotalTDS3OnOthThanSal": 0
+      },
+      "ScheduleTCS": {
+        "TotalSchTCS": 0
+      },
+      "ScheduleIT": {
+        "TotalTaxPayments": 0
+      },
+      "ScheduleCFL": {
+        "TotalOfBFLossesEarlierYrs": {
+          "LossSummaryDetail": {
+            "TotalHPPTILossCF": 0,
+            "TotalSTCGPTILossCF": 0,
+            "TotalLTCGPTILossCF": 0,
+            "OthSrcLossRaceHorseCF": 0
+          }
+        },
+        "CurrentAYloss": {
+          "LossSummaryDetail": {
+            "OthSrcLossRaceHorseCF": 0,
+            "TotalSTCGPTILossCF": 0,
+            "TotalLTCGPTILossCF": 0,
+            "TotalHPPTILossCF": 0
+          }
+        },
+        "TotalLossCFSummary": {
+          "LossSummaryDetail": {
+            "OthSrcLossRaceHorseCF": 0,
+            "TotalLTCGPTILossCF": 0,
+            "TotalHPPTILossCF": 0,
+            "TotalSTCGPTILossCF": 0
+          }
+        }
+      },
+      "ScheduleCYLA": {
+        "TotalCurYr": {
+          "TotHPlossCurYr": 200000,
+          "TotOthSrcLossNoRaceHorse": 0
+        },
+        "OthSrcExclRaceHorse": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 128559,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 128559
+          }
+        },
+        "Salary": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 3944157,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 200000,
+            "IncOfCurYrAfterSetOff": 3744157
+          }
+        },
+        "STCGDTAARate": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 0,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 0
+          }
+        },
+        "STCG30Per": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 0,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 0
+          }
+        },
+        "LTCG12_5Per": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 0,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 0
+          }
+        },
+        "STCGAppRate": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 65799,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 65799
+          }
+        },
+        "LTCGDTAARate": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 0,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 0
+          }
+        },
+        "STCG20Per": {
+          "IncCYLA": {
+            "IncOfCurYrUnderThatHead": 0,
+            "OthSrcLossNoRaceHorseSetoff": 0,
+            "HPlossCurYrSetoff": 0,
+            "IncOfCurYrAfterSetOff": 0
+          }
+        },
+        "TotalLossSetOff": {
+          "TotOthSrcLossNoRaceHorseSetoff": 0,
+          "TotHPlossCurYrSetoff": 200000
+        },
+        "LossRemAftSetOff": {
+          "BalOthSrcLossNoRaceHorseAftSetoff": 0,
+          "BalHPlossCurYrAftSetoff": 0
+        }
+      },
+      "PartB-TI": {
+        "CapGain": {
+          "CapGains30Per115BBH": 0,
+          "ShortTerm": {
+            "ShortTermSplRateDTAA": 0,
+            "ShortTerm30Per": 0,
+            "ShortTermAppRate": 65799,
+            "ShortTerm20Per": 0,
+            "TotalShortTerm": 65799
+          },
+          "LongTerm": {
+            "LongTerm12_5Per": 0,
+            "LongTermSplRateDTAA": 0,
+            "TotalLongTerm": 0
+          },
+          "ShortTermLongTermTotal": 65799,
+          "TotalCapGains": 65799
+        },
+        "IncFromOS": {
+          "FromOwnRaceHorse": 0,
+          "IncChargblSplRate": 0,
+          "OtherSrcThanOwnRaceHorse": 128559,
+          "TotIncFromOS": 128559
+        },
+        "NetAgricultureIncomeOrOtherIncomeForRate": 0,
+        "IncomeFromHP": 0,
+        "Salaries": 3944157,
+        "TotalTI": 4138515,
+        "CurrentYearLoss": 200000,
+        "BalanceAfterSetoffLosses": 3938515,
+        "LossesOfCurrentYearCarriedFwd": 0,
+        "BroughtFwdLossesSetoff": 0,
+        "GrossTotalIncome": 3938515,
+        "IncChargeTaxSplRate111A112": 0,
+        "DeductionsUnderScheduleVIA": 213512,
+        "TotalIncome": 3725000,
+        "DeemedIncomeUs115JC": 3725000,
+        "IncChargeableTaxSplRates": 0,
+        "AggregateIncome": 3725000
+      },
+      "ScheduleBFLA": {
+        "Salary": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 3744157,
+            "IncOfCurYrAfterSetOffBFLosses": 3744157
+          }
+        },
+        "OthSrcExclRaceHorse": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 128559,
+            "IncOfCurYrAfterSetOffBFLosses": 128559
+          }
+        },
+        "STCG30Per": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 0,
+            "BFlossPrevYrUndSameHeadSetoff": 0,
+            "IncOfCurYrAfterSetOffBFLosses": 0
+          }
+        },
+        "STCGAppRate": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 65799,
+            "BFlossPrevYrUndSameHeadSetoff": 0,
+            "IncOfCurYrAfterSetOffBFLosses": 65799
+          }
+        },
+        "STCG20Per": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 0,
+            "BFlossPrevYrUndSameHeadSetoff": 0,
+            "IncOfCurYrAfterSetOffBFLosses": 0
+          }
+        },
+        "LTCG12_5Per": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 0,
+            "BFlossPrevYrUndSameHeadSetoff": 0,
+            "IncOfCurYrAfterSetOffBFLosses": 0
+          }
+        },
+        "STCGDTAARate": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 0,
+            "BFlossPrevYrUndSameHeadSetoff": 0,
+            "IncOfCurYrAfterSetOffBFLosses": 0
+          }
+        },
+        "LTCGDTAARate": {
+          "IncBFLA": {
+            "IncOfCurYrUndHeadFromCYLA": 0,
+            "BFlossPrevYrUndSameHeadSetoff": 0,
+            "IncOfCurYrAfterSetOffBFLosses": 0
+          }
+        },
+        "TotalBFLossSetOff": {
+          "TotBFLossSetoff": 0
+        },
+        "IncomeOfCurrYrAftCYLABFLA": 3938515
+      },
+      "ScheduleAMT": {
+        "DeductionClaimUndrAnySec": 0,
+        "TotalIncItemPartBTI": 3725000,
+        "AdjustedUnderSec115JC": 3725000,
+        "TaxPayableUnderSec115JC": 0
+      },
+      "ScheduleHP": {
+        "PassThroghIncome": 0,
+        "TotalIncomeChargeableUnHP": -200000,
+        "PropertyDetails": [
+          {
+            "AddressDetailWithZipCode": {
+              "AddrDetail": "A-319, NAVA VAJRA",
+              "CityOrTownOrDistrict": "Horamavu Agara, Horamavu, Bengaluru",
+              "StateCode": "15",
+              "CountryCode": "91",
+              "PinCode": 560113
+            },
+            "PropertyOwner": "SE",
+            "PropCoOwnedFlg": "NO",
+            "AsseseeShareProperty": 100,
+            "ifLetOut": "S",
+            "Rentdetails": {
+              "IntOnBorwCap": 200000,
+              "Section24B": {
+                "Section24BDtls": [
+                  {
+                    "LoanTknFrom": "B",
+                    "BankOrInstnName": "SBI",
+                    "LoanAccNoOfBankOrInstnRefNo": "44402403100",
+                    "DateofLoan": "2025-08-25",
+                    "TotalLoanAmt": 10000000,
+                    "LoanOutstndngAmt": 7884744,
+                    "InterestUs24B": 200000
+                  }
+                ],
+                "TotalInterestUs24B": 200000
+              },
+              "TotalDeduct": 200000,
+              "IncomeOfHP": -200000,
+              "ArrearsUnrealizedRentRcvd": 0,
+              "AnnualLetableValue": 0,
+              "TotalUnrealizedAndTax": 0,
+              "BalanceALV": 0,
+              "AnnualOfPropOwned": 0,
+              "ThirtyPercentOfBalance": 0
+            },
+            "HPSNo": 1
+          }
+        ]
+      },
+      "Schedule80D": {
+        "Sec80DSelfFamSrCtznHealth": {
+          "HealthInsPremSlfFam": 0,
+          "HlthInsPremSlfFamSrCtzn": 0,
+          "HlthInsPremParents": 0,
+          "HlthInsPremParentsSrCtzn": 60474,
+          "Sec80DParentsSrCtznHIDtls": {
+            "TotalPayments": 60474,
+            "Sch80DInsDtls": [
+              {
+                "InsurerName": "HDFC ERGO",
+                "PolicyNo": "2856206681055301001",
+                "HealthInsAmt": 60474
+              }
+            ]
+          },
+          "SelfAndFamily": 5000,
+          "SelfAndFamilySeniorCitizen": 0,
+          "Parents": 0,
+          "ParentsSeniorCitizen": 50000,
+          "EligibleAmountOfDedn": 55000,
+          "PrevHlthChckUpSlfFamSrCtzn": 0,
+          "MedicalExpSlfFamSrCtzn": 0,
+          "PrevHlthChckUpParents": 0,
+          "SeniorCitizenFlag": "N",
+          "PrevHlthChckUpSlfFam": 5000,
+          "ParentsSeniorCitizenFlag": "Y",
+          "PrevHlthChckUpParentsSrCtzn": 0,
+          "MedicalExpParentsSrCtzn": 0
+        }
+      },
+      "Schedule80C": {
+        "TotalAmt": 192086,
+        "Schedule80CDtls": [
+          {
+            "Amount": 192086,
+            "IdentificationNo": "44402403100"
+          }
+        ]
+      },
+      "ScheduleCGFor23": {
+        "ShortTermCapGainFor23": {
+          "TotalAmtNotTaxUsDTAAStcg": 0,
+          "TotalAmtTaxUsDTAAStcg": 0,
+          "SaleOnOtherAssets": {
+            "FullValueConsdSec50CA": 1984720,
+            "DeductSec48": {
+              "TotalDedn": 1891225,
+              "AquisitCost": 1880131,
+              "ImproveCost": 0,
+              "ExpOnTrans": 11094
+            },
+            "FullConsideration": 1984720,
+            "BalanceCG": 93495,
+            "CapgainonAssets": 93495,
+            "FullValueConsdRecvUnqshr": 1984720,
+            "FairMrktValueUnqshr": 1984720,
+            "FullValueConsdOthUnqshr": 0,
+            "LossSec94of7Or94of8": 0
+          },
+          "TotalAmtDeemedStcg": 0,
+          "PassThrIncNatureSTCG": 0,
+          "TotalSTCG": 65799,
+          "EquityMFonSTT": [
+            {
+              "MFSectionCode": "1A",
+              "EquityMFonSTTDtls": {
+                "FullConsideration": 510735,
+                "DeductSec48": {
+                  "AquisitCost": 537767,
+                  "ImproveCost": 0,
+                  "ExpOnTrans": 664,
+                  "TotalDedn": 538431
+                },
+                "BalanceCG": -27696,
+                "LossSec94of7Or94of8": 0,
+                "CapgainonAssets": -27696
+              }
+            }
+          ],
+          "AmtDeemedStcg": 0,
+          "PassThrIncNatureSTCG20Per": 0,
+          "PassThrIncNatureSTCG30Per": 0,
+          "PassThrIncNatureSTCGAppRate": 0,
+          "NRITransacSec48Dtl": {
+            "NRItaxSTTPaid": 0,
+            "NRItaxSTTNotPaid": 0
+          },
+          "NRISecur115AD": {
+            "FullValueConsdRecvUnqshr": 0,
+            "FairMrktValueUnqshr": 0,
+            "FullValueConsdSec50CA": 0,
+            "FullValueConsdOthUnqshr": 0,
+            "FullConsideration": 0,
+            "DeductSec48": {
+              "AquisitCost": 0,
+              "ImproveCost": 0,
+              "ExpOnTrans": 0,
+              "TotalDedn": 0
+            },
+            "BalanceCG": 0,
+            "LossSec94of7Or94of8": 0,
+            "CapgainonAssets": 0
+          }
+        },
+        "LongTermCapGain23": {
+          "SaleOfEquityShareUs112A": {
+            "BalanceCG": 0,
+            "CapgainonAssets": 0,
+            "DeductionUs54F": 0
+          },
+          "TotalAmtNotTaxUsDTAALtcg": 0,
+          "TotalAmtTaxUsDTAALtcg": 0,
+          "TotalAmtDeemedLtcg": 0,
+          "PassThrIncNatureLTCG": 0,
+          "TotalLTCG": 0,
+          "AmtDeemedLtcg": 0,
+          "PassThrIncNatureLTCGUs112A12_5Per": 0,
+          "PassThrIncNatureLTCG12_5Per": 0,
+          "SaleofAssetNADtls": {},
+          "NRISaleOfEquityShareUs112A": {
+            "BalanceCG": 0,
+            "DeductionUs54F": 0,
+            "CapgainonAssets": 0
+          },
+          "NRISaleofForeignAsset": {
+            "SaleonSpecAsset": 0,
+            "DednSpecAssetus115": 0,
+            "BalonSpeciAsset": 0
+          }
+        },
+        "IncmFromVDATrnsf": 0,
+        "CurrYrLosses": {
+          "InLossSetOff": {
+            "StclSetoff20Per": 27696,
+            "StclSetoff30Per": 0,
+            "StclSetoffDTAARate": 0,
+            "LtclSetOffDTAARate": 0,
+            "StclSetoffAppRate": 0,
+            "LtclSetOff12_5Per": 0
+          },
+          "InStcg20Per": {
+            "CurrYearIncome": 0,
+            "StclSetoff30Per": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoffDTAARate": 0,
+            "CurrYrCapGain": 0
+          },
+          "InStcg30Per": {
+            "CurrYearIncome": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoff20Per": 0,
+            "StclSetoffDTAARate": 0,
+            "CurrYrCapGain": 0
+          },
+          "InStcgDTAARate": {
+            "CurrYearIncome": 0,
+            "StclSetoff30Per": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoff20Per": 0,
+            "CurrYrCapGain": 0
+          },
+          "InLtcgDTAARate": {
+            "CurrYearIncome": 0,
+            "StclSetoff30Per": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoff20Per": 0,
+            "LtclSetOff12_5Per": 0,
+            "StclSetoffDTAARate": 0,
+            "CurrYrCapGain": 0
+          },
+          "InStcgAppRate": {
+            "CurrYearIncome": 93495,
+            "StclSetoff30Per": 0,
+            "StclSetoff20Per": 27696,
+            "StclSetoffDTAARate": 0,
+            "CurrYrCapGain": 65799
+          },
+          "InLtcg12_5Per": {
+            "CurrYearIncome": 0,
+            "StclSetoff30Per": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoff20Per": 0,
+            "StclSetoffDTAARate": 0,
+            "LtclSetOffDTAARate": 0,
+            "CurrYrCapGain": 0
+          },
+          "TotLossSetOff": {
+            "StclSetoff20Per": 27696,
+            "StclSetoff30Per": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoffDTAARate": 0,
+            "LtclSetOff12_5Per": 0,
+            "LtclSetOffDTAARate": 0
+          },
+          "LossRemainSetOff": {
+            "StclSetoff20Per": 0,
+            "StclSetoff30Per": 0,
+            "StclSetoffAppRate": 0,
+            "StclSetoffDTAARate": 0,
+            "LtclSetOff12_5Per": 0,
+            "LtclSetOffDTAARate": 0
+          }
+        },
+        "SumOfCGIncm": 65799,
+        "TotScheduleCGFor23": 65799,
+        "AccruOrRecOfCG": {
+          "ShortTermUnder20Per": {
+            "DateRange": {
+              "Upto15Of6": 0,
+              "Upto15Of9": 0,
+              "Up16Of9To15Of12": 0,
+              "Up16Of12To15Of3": 0,
+              "Up16Of3To31Of3": 0
+            }
+          },
+          "ShortTermUnder30Per": {
+            "DateRange": {
+              "Upto15Of6": 0,
+              "Upto15Of9": 0,
+              "Up16Of9To15Of12": 0,
+              "Up16Of12To15Of3": 0,
+              "Up16Of3To31Of3": 0
+            }
+          },
+          "ShortTermUnderAppRate": {
+            "DateRange": {
+              "Upto15Of6": 0,
+              "Upto15Of9": 18583,
+              "Up16Of9To15Of12": 47216,
+              "Up16Of12To15Of3": 0,
+              "Up16Of3To31Of3": 0
+            }
+          },
+          "ShortTermUnderDTAARate": {
+            "DateRange": {
+              "Upto15Of6": 0,
+              "Upto15Of9": 0,
+              "Up16Of9To15Of12": 0,
+              "Up16Of12To15Of3": 0,
+              "Up16Of3To31Of3": 0
+            }
+          },
+          "LongTermUnder12_5Per": {
+            "DateRange": {
+              "Upto15Of6": 0,
+              "Upto15Of9": 0,
+              "Up16Of9To15Of12": 0,
+              "Up16Of12To15Of3": 0,
+              "Up16Of3To31Of3": 0
+            }
+          },
+          "LongTermUnderDTAARate": {
+            "DateRange": {
+              "Upto15Of6": 0,
+              "Upto15Of9": 0,
+              "Up16Of9To15Of12": 0,
+              "Up16Of12To15Of3": 0,
+              "Up16Of3To31Of3": 0
+            }
+          }
+        }
+      },
+      "ScheduleFA": {
+        "DtlsForeignCustodialAcc": [
+          {
+            "CountryCodeExcludingIndia": "2",
+            "FinancialInstName": "Alpaca Securities LLC",
+            "FinancialInstAddress": "Alpaca Securities LLC, 3 East Third Ave, Suite 233, San Mateo, CA 94401, USA",
+            "ZipCode": "94401",
+            "AccountNumber": "214957742",
+            "Status": "BENEFICIAL_OWNER",
+            "AccOpenDate": "2022-06-13",
+            "PeakBalanceDuringPeriod": 92269,
+            "ClosingBalance": 1244,
+            "NatureOfAmount": "I",
+            "GrossAmtPaidCredited": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          }
+        ],
+        "DtlsForeignEquityDebtInterest": [
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Alphabet Inc. Class A",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-06-06",
+            "InitialValOfInvstmnt": 14674,
+            "PeakBalanceDuringPeriod": 24869,
+            "ClosingBalance": 0,
+            "TotGrossAmtPaidCredited": 54,
+            "TotGrossProceeds": 25485,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Alphabet Inc. Class C",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-07-26",
+            "InitialValOfInvstmnt": 38823,
+            "PeakBalanceDuringPeriod": 65446,
+            "ClosingBalance": 0,
+            "TotGrossAmtPaidCredited": 116,
+            "TotGrossProceeds": 67016,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Amazon.com, Inc.",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-08-27",
+            "InitialValOfInvstmnt": 56342,
+            "PeakBalanceDuringPeriod": 67599,
+            "ClosingBalance": 62333,
+            "TotGrossAmtPaidCredited": 0,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "American Express Company",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-06-06",
+            "InitialValOfInvstmnt": 19499,
+            "PeakBalanceDuringPeriod": 34236,
+            "ClosingBalance": 33111,
+            "TotGrossAmtPaidCredited": 273,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Apple Inc.",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2022-06-14",
+            "InitialValOfInvstmnt": 38777,
+            "PeakBalanceDuringPeriod": 66093,
+            "ClosingBalance": 63172,
+            "TotGrossAmtPaidCredited": 214,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Arm Holdings plc",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2025-09-18",
+            "InitialValOfInvstmnt": 25702,
+            "PeakBalanceDuringPeriod": 31562,
+            "ClosingBalance": 19566,
+            "TotGrossAmtPaidCredited": 0,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Eli Lilly & Co.",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-06-26",
+            "InitialValOfInvstmnt": 7878,
+            "PeakBalanceDuringPeriod": 9698,
+            "ClosingBalance": 0,
+            "TotGrossAmtPaidCredited": 56,
+            "TotGrossProceeds": 9509,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Meta Platforms, Inc. Class A",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2022-06-16",
+            "InitialValOfInvstmnt": 194292,
+            "PeakBalanceDuringPeriod": 236373,
+            "ClosingBalance": 155584,
+            "TotGrossAmtPaidCredited": 263,
+            "TotGrossProceeds": 69374,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Microsoft Corporation",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2022-06-16",
+            "InitialValOfInvstmnt": 32260,
+            "PeakBalanceDuringPeriod": 50333,
+            "ClosingBalance": 45672,
+            "TotGrossAmtPaidCredited": 304,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "NVIDIA Corporation",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-07-08",
+            "InitialValOfInvstmnt": 81120,
+            "PeakBalanceDuringPeriod": 118820,
+            "ClosingBalance": 108426,
+            "TotGrossAmtPaidCredited": 12,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Tesla, Inc.",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-08-27",
+            "InitialValOfInvstmnt": 58605,
+            "PeakBalanceDuringPeriod": 83265,
+            "ClosingBalance": 40250,
+            "TotGrossAmtPaidCredited": 0,
+            "TotGrossProceeds": 36043,
+            "CountryName": "UNITED STATES OF AMERICA"
+          },
+          {
+            "CountryCodeExcludingIndia": "2",
+            "NameOfEntity": "Wells Fargo & Co.",
+            "AddressOfEntity": "USA",
+            "ZipCode": "99999",
+            "NatureOfEntity": "Company",
+            "InterestAcquiringDate": "2024-06-06",
+            "InitialValOfInvstmnt": 12286,
+            "PeakBalanceDuringPeriod": 16954,
+            "ClosingBalance": 16682,
+            "TotGrossAmtPaidCredited": 148,
+            "TotGrossProceeds": 0,
+            "CountryName": "UNITED STATES OF AMERICA"
+          }
+        ]
+      },
+      "ScheduleFSI": {
+        "ScheduleFSIDtls": [
+          {
+            "CountryCodeExcludingIndia": "2",
+            "TaxIdentificationNo": "V2289772",
+            "IncFromSal": {
+              "IncFrmOutsideInd": 0,
+              "TaxPaidOutsideInd": 0,
+              "TaxPayableinInd": 0,
+              "TaxReliefinInd": 0
+            },
+            "IncFromHP": {
+              "IncFrmOutsideInd": 0,
+              "TaxPaidOutsideInd": 0,
+              "TaxPayableinInd": 0,
+              "TaxReliefinInd": 0
+            },
+            "IncCapGain": {
+              "IncFrmOutsideInd": 0,
+              "TaxPaidOutsideInd": 0,
+              "TaxPayableinInd": 0,
+              "TaxReliefinInd": 0
+            },
+            "IncOthSrc": {
+              "IncFrmOutsideInd": 1603,
+              "TaxPaidOutsideInd": 394,
+              "TaxPayableinInd": 481,
+              "TaxReliefinInd": 394,
+              "DTAAReliefUs90or90A": "10"
+            },
+            "TotalCountryWise": {
+              "IncFrmOutsideInd": 1603,
+              "TaxPaidOutsideInd": 394,
+              "TaxPayableinInd": 481,
+              "TaxReliefinInd": 394
+            },
+            "CountryName": "UNITED STATES OF AMERICA"
+          }
+        ]
+      },
+      "ScheduleTR1": {
+        "ScheduleTR": [
+          {
+            "CountryCodeExcludingIndia": "2",
+            "TaxReliefOutsideIndia": 394,
+            "TaxPaidOutsideIndia": 394,
+            "TaxIdentificationNo": "V2289772",
+            "ReliefClaimedUsSection": "90",
+            "CountryName": "UNITED STATES OF AMERICA"
+          }
+        ],
+        "TotalTaxPaidOutsideIndia": 394,
+        "TotalTaxReliefOutsideIndia": 394,
+        "TaxReliefOutsideIndiaDTAA": 394,
+        "TaxReliefOutsideIndiaNotDTAA": 0,
+        "TaxPaidOutsideIndFlg": "NO"
+      },
+      "Form_ITR2": {
+        "AssessmentYear": "2026",
+        "SchemaVer": "Ver1.0",
+        "FormVer": "Ver1.0",
+        "FormName": "ITR-2",
+        "Description": "For Individuals and HUFs not having income from profits and gains of business or profession"
+      }
+    }
+  }
+}
